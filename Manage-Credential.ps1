@@ -8,7 +8,6 @@ Write-Host 'l. List credential'
 Write-Host
 $opt = Read-Host 'Select Option (c, r)'
 
-
 function Show-Credential {
     Clear-Host
     Write-Host 'Credentials Present:'
