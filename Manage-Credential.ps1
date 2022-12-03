@@ -29,7 +29,7 @@ switch ($opt) {
         $cred_remove = Read-Host 'Remove Credential'
         Remove-Item -Path ($cred_path + '\' + $cred_remove + '.xml') -Confirm:$false
     }
-    Default {Show-Credential}
+    default {Show-Credential}
 }
 
 #Changelog
